@@ -57,8 +57,8 @@ nav ul li a {
     background-color: #900;
 }
 
-/* Hero section styles */
-.hero {
+/* Batman Background section styles */
+.batman background {
     background-image: url('URL/IMG_2772.jpeg');
     background-size: cover;
     height: 400px;
@@ -70,12 +70,12 @@ nav ul li a {
     color: #fff;
 }
 
-.hero h1 {
+.batman background h1 {
     font-size: 3em;
     margin-bottom: 20px;
 }
 
-.hero p {
+.batman background p {
     font-size: 1.5em;
     margin-bottom: 20px;
 }
