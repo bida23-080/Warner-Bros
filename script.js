@@ -18,15 +18,15 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Interactive Movie Posters
-    const moviePosters = document.querySelectorAll('.movie-poster');
+    // Interactive Content for Movies, TV Shows, and News Articles
+    const interactiveItems = document.querySelectorAll('.interactive-item');
 
-    moviePosters.forEach(poster => {
-        poster.addEventListener('click', function() {
-            const title = poster.dataset.title;
-            const description = poster.dataset.description;
+    interactiveItems.forEach(item => {
+        item.addEventListener('click', function() {
+            const title = item.dataset.title;
+            const description = item.dataset.description;
 
-            // Display movie information (you can customize this)
+            // Display item information (customize this as needed)
             alert(`${title}: ${description}`);
         });
     });
@@ -41,11 +41,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const searchTerm = searchInput.value.trim();
 
         if (searchTerm) {
-            // Perform search action (you can customize this)
+            // Perform search action (customize this as needed)
             alert(`Searching for: ${searchTerm}`);
-
-            // Optionally, you can redirect to a search results page or perform an AJAX search
-            // Example: window.location.href = `/search?query=${encodeURIComponent(searchTerm)}`;
 
             // Clear the search input field after submission
             searchInput.value = '';
@@ -68,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const email = emailInput.value.trim();
 
         if (fullName && email) {
-            // Send form data to server (you can customize this)
+            // Send form data to server (customize this as needed)
             alert(`Sign Up Successful!\nFull Name: ${fullName}\nEmail: ${email}`);
 
             // Reset form fields after successful submission
@@ -89,7 +86,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const message = messageInput.value.trim();
 
         if (message) {
-            // Send form data to server (you can customize this)
+            // Send form data to server (customize this as needed)
             alert(`Message Sent Successfully!\nMessage: ${message}`);
 
             // Reset form field after successful submission
