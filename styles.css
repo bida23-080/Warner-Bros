@@ -317,3 +317,26 @@ nav ul li a {
 .contact-form button:hover {
     background-color: #900;
 }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icon {
+    margin-right: 10px;
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #007bff;
+}
