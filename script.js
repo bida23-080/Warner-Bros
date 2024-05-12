@@ -49,7 +49,6 @@ document.addEventListener('DOMContentLoaded', function() {
             alert(`${title}: ${description}`);
         });
     });
-});
 
     // Search Form Submission
     const searchForm = document.getElementById('searchForm');
