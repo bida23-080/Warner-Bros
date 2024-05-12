@@ -35,6 +35,24 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
+    // Wait for the DOM to be fully loaded before executing the script
+document.addEventListener('DOMContentLoaded', function() {
+    // Get all the interactive items (TV show titles)
+    const interactiveItems = document.querySelectorAll('.interactive-item');
+
+    // Add a click event listener to each interactive item
+    interactiveItems.forEach(item => {
+        item.addEventListener('click', () => {
+            // Retrieve the title and description data attributes
+            const title = item.dataset.title;
+            const description = item.dataset.description;
+
+            // Display the details (you can customize how this is shown)
+            alert(`${title}: ${description}`);
+        });
+    });
+});
+
     // Search Form Submission
     const searchForm = document.getElementById('searchForm');
 
