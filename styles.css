@@ -1,0 +1,270 @@
+/* Reset default browser styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-form input[type="text"] {
+    padding: 10px;
+    width: 250px;
+    border: 2px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    margin-right: 5px; /* Adjust spacing between input and button */
+}
+
+.search-form button {
+    padding: 10px 20px;
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-form button:hover {
+    background-color: #900;
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #f00;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #900;
+}
+
+/* Featured section styles */
+.featured {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.featured h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.movie-posters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.movie-poster {
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.movie-poster img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.movie-poster img:hover {
+    transform: scale(1.05);
+}
+
+/* TV Shows section styles */
+.tv-shows {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.tv-shows h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.tv-shows p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.tv-shows ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.tv-shows li {
+    font-size: 1.5em;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #f00;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.tv-shows li:hover {
+    background-color: #900;
+}
+
+/* News section styles */
+.news {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.news h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.news p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.news-articles {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.news-article {
+    flex: 1 0 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.news-article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.news-article h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.news-article p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+/* Shop section styles */
+.shop {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.shop h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.shop p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product {
+    margin: 20px;
+    padding: 20px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.product .price {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #f00;
+}
