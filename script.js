@@ -19,15 +19,19 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Interactive Content for Movies, TV Shows, and News Articles
-    const interactiveItems = document.querySelectorAll('.interactive-item');
+    const interactivePosters = document.querySelectorAll('.movie-poster');
 
-    interactiveItems.forEach(item => {
-        item.addEventListener('click', function() {
-            const title = item.dataset.title;
-            const description = item.dataset.description;
+    interactivePosters.forEach(poster => {
+        poster.addEventListener('click', function() {
+            const title = poster.getAttribute('data-title');
+            const description = poster.getAttribute('data-description');
 
             // Display item information (customize this as needed)
-            alert(`${title}: ${description}`);
+            if (title && description) {
+                alert(`${title}: ${description}`);
+            } else {
+                alert('Error: Missing title or description for this item.');
+            }
         });
     });
 
