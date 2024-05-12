@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const title = poster.getAttribute('data-title');
             const description = poster.getAttribute('data-description');
 
-            // Display item information (customize this as needed)
+            // Display item information 
             if (title && description) {
                 alert(`${title}: ${description}`);
             } else {
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const searchTerm = searchInput.value.trim();
 
         if (searchTerm) {
-            // Perform search action (customize this as needed)
+            // Perform search action 
             alert(`Searching for: ${searchTerm}`);
 
             // Clear the search input field after submission
@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const email = emailInput.value.trim();
 
         if (fullName && email) {
-            // Send form data to server (customize this as needed)
+            // Send form data to server 
             alert(`Sign Up Successful!\nFull Name: ${fullName}\nEmail: ${email}`);
 
             // Reset form fields after successful submission
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const message = messageInput.value.trim();
 
         if (message) {
-            // Send form data to server (customize this as needed)
+            // Send form data to server 
             alert(`Message Sent Successfully!\nMessage: ${message}`);
 
             // Reset form field after successful submission
