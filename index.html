@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warner Bros</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="logo.png" alt="Warner Bros Logo"></a>
+            </div>
+            <ul class="menu">
+                <li><a href="#movies">Movies</a></li>
+                <li><a href="#tvshows">TV Shows</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#shop">Shop</a></li>
+            </ul>
+            <form class="search-form" id="searchForm" action="#" method="GET">
+                <input type="text" id="searchInput" placeholder="Search movies...">
+                <button type="submit">Search</button>
+            </form>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to Warner Bros</h1>
+        <p>Explore the latest movies, TV shows, games, and collectibles</p>
+        <a href="#movies" class="button">Discover Now</a>
+    </section>
+
+    <section id="movies" class="content-section">
+        <h2>Latest Movies</h2>
+        <div class="movie-grid">
+            <!-- Movie cards or posters will be dynamically generated here -->
+        </div>
+    </section>
+
+    <section id="tvshows" class="content-section">
+        <h2>Popular TV Shows</h2>
+        <div class="tvshow-grid">
+            <!-- TV show cards will be dynamically generated here -->
+        </div>
+    </section>
+
+    <section id="news" class="content-section">
+        <h2>Latest News</h2>
+        <div class="news-articles">
+            <!-- News articles will be dynamically generated here -->
+        </div>
+    </section>
+
+    <section id="shop" class="content-section">
+        <h2>Shop Warner Bros</h2>
+        <p>Explore our collection of movies, games, and collectibles</p>
+        <a href="shop.html" class="button">Visit Shop</a>
+    </section>
+
+    <section id="signup" class="content-section">
+        <h2>Sign Up for Exclusive Content</h2>
+        <form class="signup-form" action="#" method="POST">
+            <input type="text" placeholder="Full Name" name="fullname" required>
+            <input type="email" placeholder="Email Address" name="email" required>
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+
+    <section id="contact" class="content-section">
+        <h2>Contact Us</h2>
+        <p>Have questions or feedback? Reach out to us!</p>
+        <form class="contact-form" action="#" method="POST">
+            <textarea placeholder="Your Message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Warner Bros. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
