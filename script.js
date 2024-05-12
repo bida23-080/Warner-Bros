@@ -35,8 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Wait for the DOM to be fully loaded before executing the script
-document.addEventListener('DOMContentLoaded', function() {
+    
     // Get all the interactive items (TV show titles)
     const interactiveItems = document.querySelectorAll('.interactive-item');
 
